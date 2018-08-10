@@ -19,18 +19,18 @@ $(document).ready(function() {
     $(".date").text(dateInput);
 
     if (aspectsInput === "none" || timeInput === "0hours") {
-      $("#dontdoit").show();
+      $("#dontdoit").fadeIn();
       $("#dontdoit").siblings().hide();
     } else if (environmentInput === "Working at a large company") {
-      $("#rubyrails").show();
+      $("#rubyrails").fadeIn();
       $("#rubyrails").siblings().hide();
-      $("#thankyou").show();
+      $("#thankyou").fadeIn();
     } else if (enterpriseInput === "No" && environmentInput === "Working at an agency that serves small businesses and start ups") {
-      $("#cplusdotnet").show();
+      $("#cplusdotnet").slideDown();
       $("#cplusdotnet").siblings().hide();
       $("#thankyou").show();
     } else if (enterpriseInput === "Yes" && environmentInput === "Working at an agency that serves small businesses and start ups") {
-      $("#cssreact").show();
+      $("#cssreact").slideDown();
       $("#cssreact").siblings().hide();
       $("#thankyou").show();
     }
