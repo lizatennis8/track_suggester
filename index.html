@@ -11,9 +11,9 @@
   </head>
   <body>
     <div class="container">
-      <form id="formOne">
-        <h2>Which programming course is right for you?</h2>
-        <p>Take the quick survey below to find out!</p>
+      <form id="formOne" class="well">
+        <h2 id="titlemargin">Which programming course is right for you?</h2>
+        <p class="centaur well">Take the survey below to find out!</p>
         <label>Are you interested in working for an enterprise level company?</label>
           <select class="form-control" id="enterprise">
             <option>Yes</option>
@@ -37,7 +37,7 @@
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="aspects" value="none">I hate technology.
+            <input type="radio" name="aspects" value="none">Neither, I hate technology.
           </label>
         </div>
         <div class="form-group">
@@ -76,24 +76,24 @@
         <button type="submit" class="btn btn-info">Reveal your course</button>
       </form>
       <div id="courseresult">
-        <div id="rubyrails">
+        <div id="rubyrails" class="well">
           <h3>The best course track for you is Ruby/Rails</h3>
           <img src="img/rubyrails.jpg">
         </div>
-        <div id="cssreact">
+        <div id="cssreact" class="well">
           <h3>CSS/React</h3>
           <img src="img/react.jpg">
         </div>
-        <div id="cplusdotnet">
+        <div id="cplusdotnet" class="well">
           <h3>The best course track for you is C#/.NET</h3>
           <img src="img/cplus.jpg">
         </div>
-        <div id="dontdoit">
-          <h3>It sounds like you shouldn't be taking a programming course right now. Get outta here!</h3>
+        <div id="dontdoit" class="well">
+          <h3>It sounds like you shouldn't be taking a programming course right now.</h3>
           <img src="https://media.giphy.com/media/d4aTnvQuF6xyfgWI/giphy.gif">
         </div>
       </div>
-      <div id="thankyou">
+      <div id="thankyou" class="well">
         <p>Hi, <span class="name"></span>. Thank you for taking the time to submit this survey. We hope it was helpful in identifying the best course track for you. You can look forward to receiving an email at </p> <span class="email"></span> with registration details corresponding to the start date of <span class="date". Have a nice day!</p>
       </div>
     </div>
