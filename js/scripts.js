@@ -32,6 +32,7 @@ $(document).ready(function() {
     }
 
     $("#thankyou").show();
+    $("#formOne").hide();
 
     event.preventDefault();
   });
