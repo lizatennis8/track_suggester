@@ -10,7 +10,6 @@ $(document).ready(function() {
     var nameInput = $("#name").val();
     var emailInput = $("#email").val();
 
-
     $(".enterprise").text(enterpriseInput);
     $(".environment").text(environmentInput);
     $(".aspects").text(aspectsInput);
@@ -19,9 +18,7 @@ $(document).ready(function() {
     $(".email").text(emailInput);
     $(".date").text(dateInput);
 
-
-
-    if (aspectsInput === "none") {
+    if (aspectsInput === "none" || timeInput === "0hours") {
       $("#dontdoit").show();
       $("#dontdoit").siblings().hide();
     } else if (environmentInput === "Working at a large company") {
@@ -38,9 +35,7 @@ $(document).ready(function() {
       $("#thankyou").show();
     }
 
-
     $("#formOne").hide();
-
     event.preventDefault();
   });
 });
