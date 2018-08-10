@@ -25,10 +25,14 @@ $(document).ready(function() {
       $("#rubyrails").siblings().hide();
       $("#thankyou").show();
     } else if (enterpriseInput === "No" && environmentInput === "Working at an agency that serves small businesses and start ups") {
+      $("#cplusdotnet").show();
+      $("#cplusdotnet").siblings().hide();
+      $("#thankyou").show();
+    } else if (enterpriseInput === "Yes" && environmentInput === "Working at an agency that serves small businesses and start ups") {
       $("#cssreact").show();
       $("#cssreact").siblings().hide();
       $("#thankyou").show();
-    } else if (timeInput === "10hours") {
+    } else if (enterpriseInput === "No" && environmentInput === "Working at a large company") {
       $("#dontdoit").show();
       $("#dontdoit").siblings().hide();
     }
