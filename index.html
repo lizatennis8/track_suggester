@@ -9,6 +9,63 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-
+    <div class="container">
+      <h2>Which programming course is right for you?</h2>
+      <p>Take the quick survey below to find out!</p>
+      <form id="formOne">
+        <label>Are you interested in working for an enterprise level company?</label>
+          <select class="form-control" id="enterprise">
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        <label>Which of the following work environments sounds the most appealing to you?</label>
+        <select class="form-control" id="environment">
+          <option>Working at a large company</option>
+          <option>Working at an agency that serves small businesses and start ups</option>
+        </select>
+        <label>What aspects of web design interest you the most?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="aspects" value="external">Designing the layout style, background colors, buttons and content.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="aspects" value="internal">Creating the logic behind how the website operates, processes and manipulates data.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="aspects" value="none">None of the above.
+          </label>
+        </div>
+        <div class="form-group">
+        <label for="date">What is the ideal start date for you?</label>
+        <input id="date" class="form-control" type="date">
+        </div>
+        <label>How many hours per week would you be able to commit to this course?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="10hours">10 hours
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="20hours">20 hours
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="40hours">40 hours
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="0hours">I don't have any time for school right now.
+          </label>
+        </div>
+        <button type="submit" class="btn btn-info">Reveal your course</button>
+      </form>
+    </div>
   </body>
 </html>
