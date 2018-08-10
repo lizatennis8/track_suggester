@@ -20,7 +20,11 @@ $(document).ready(function() {
     $(".date").text(dateInput);
 
 
-    if (enterpriseInput === "Yes" && environmentInput === "Working at a large company") {
+
+    if (aspectsInput === "none") {
+      $("#dontdoit").show();
+      $("#dontdoit").siblings().hide();
+    } else if (environmentInput === "Working at a large company") {
       $("#rubyrails").show();
       $("#rubyrails").siblings().hide();
       $("#thankyou").show();
@@ -32,9 +36,6 @@ $(document).ready(function() {
       $("#cssreact").show();
       $("#cssreact").siblings().hide();
       $("#thankyou").show();
-    } else if (enterpriseInput === "No" && environmentInput === "Working at a large company") {
-      $("#dontdoit").show();
-      $("#dontdoit").siblings().hide();
     }
 
 
