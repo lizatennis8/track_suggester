@@ -7,12 +7,16 @@ $(document).ready(function() {
     var aspectsInput = $("input:radio[name=aspects]:checked").val();
     var dateInput = $("#date").val();
     var timeInput = $("input:radio[name=time]:checked").val();
+    var emailInput = $("#email").val();
+    var nameInput = $("name").val();
 
     $(".enterprise").text(enterpriseInput);
     $(".environment").text(environmentInput);
     $(".aspects").text(aspectsInput);
     $(".date").text(dateInput);
     $(".time").text(timeInput);
+    $(".email").text(emailInput);
+    $(".name").text(nameInput);
 
     if (enterpriseInput === "Yes" && environmentInput === "Working at a large company") {
       $("#rubyrails").show();
@@ -24,6 +28,9 @@ $(document).ready(function() {
       $("#cplusdotnet").show();
       $("#cplusdotnet").siblings().hide();
     }
+
+    $("#thankyou").show();
+
     event.preventDefault();
   });
 });
