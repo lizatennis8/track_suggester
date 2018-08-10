@@ -23,15 +23,17 @@ $(document).ready(function() {
     if (enterpriseInput === "Yes" && environmentInput === "Working at a large company") {
       $("#rubyrails").show();
       $("#rubyrails").siblings().hide();
+      $("#thankyou").show();
     } else if (enterpriseInput === "No" && environmentInput === "Working at an agency that serves small businesses and start ups") {
       $("#cssreact").show();
       $("#cssreact").siblings().hide();
-    } else if (timeInput === "10 hours") {
-      $("#cplusdotnet").show();
-      $("#cplusdotnet").siblings().hide();
+      $("#thankyou").show();
+    } else if (timeInput === "10hours") {
+      $("#dontdoit").show();
+      $("#dontdoit").siblings().hide();
     }
 
-    $("#thankyou").show();
+
     $("#formOne").hide();
 
     event.preventDefault();
