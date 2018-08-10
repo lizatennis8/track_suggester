@@ -78,31 +78,31 @@ h3{
   margin-bottom: 28px;
 }
 .well#rubyrails{
-margin-left: 110px;
-margin-right: 110px;
+margin-left: 310px;
+margin-right: 310px;
 margin-top: 30px;
 color: white;
 background: pink;
 text-align: center;
 }
 .well#cssreact{
-margin-left: 110px;
-margin-right: 110px;
+margin-left: 310px;
+margin-right: 310px;
 margin-top: 30px;
 color: white;
 text-align: center;
 background-color: #6dcbed;
 }
 .well#cplusdotnet{
-margin-left: 110px;
-margin-right: 110px;
+margin-left: 310px;
+margin-right: 310px;
 margin-top: 30px;
 color: black;
 text-align: center;
 }
 .well#thankyou{
-margin-left: 110px;
-margin-right: 110px;
+margin-left: 310px;
+margin-right: 310px;
 margin-top: 30px;
 color: white;
 background: #b2adad;
@@ -110,14 +110,13 @@ text-align: center;
 font-size: 16px;
 }
 .well#dontdoit{
-margin-left: 110px;
-margin-right: 110px;
+margin-left: 310px;
+margin-right: 310px;
 margin-top: 30px;
 color: white;
 text-align: center;
 background: #962d2d;
 }
-
 .btn{
   display: block;
   margin-left: auto;
