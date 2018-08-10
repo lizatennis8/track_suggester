@@ -1,6 +1,6 @@
 # _Track Suggester_
 
-#### _Liza's Track Suggester: INCLUDE GH-PAGES LINK 8/10/2018_
+#### _Liza's Track Suggester: https://lizatennis8.github.io/track_suggester/ 8/10/2018_
 
 #### By _**Liza Tennis**_
 

@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   $("#formOne").submit(function(event) {
 
     var enterpriseInput = $("#enterprise").val();
