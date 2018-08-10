@@ -23,7 +23,7 @@ img{
   margin-right: auto;
 }
 body{
-  background-image: url("bluetrix.jpg");
+  background-image: url("brick.jpg");
   font-family: 'Eczar', serif;
 }
 #formOne{
@@ -35,18 +35,20 @@ margin-right: auto;
 }
 h2{
   text-align: center;
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Codystar', cursive;
+  font-size: 34px;
 }
 .well{
-  background-color: #49b9ed;
+  background-color: #ffd793;
+  margin-top: 25px;
 }
 .centaur{
   text-align: center;
   font-size: 20px;
 }
 .centaur.well{
-  background-color: #1589bf;
-  color: white;
+  background-color: white;
+  color: #adacab;
   margin-left: 110px;
   margin-right: 110px
 }
@@ -58,24 +60,36 @@ margin-left: 110px;
 margin-right: 110px;
 margin-top: 30px;
 color: white;
+background: pink;
+text-align: center;
 }
 .well#cssreact{
 margin-left: 110px;
 margin-right: 110px;
 margin-top: 30px;
+color: white;
+text-align: center;
 }
 .well#cplusdotnet{
 margin-left: 110px;
 margin-right: 110px;
 margin-top: 30px;
+color: white;
+text-align: center;
 }
 .well#thankyou{
 margin-left: 110px;
 margin-right: 110px;
 margin-top: 30px;
+color: black;
+background: white;
+text-align: center;
 }
 .well#dontdoit{
 margin-left: 110px;
 margin-right: 110px;
 margin-top: 30px;
+color: white;
+text-align: center;
+background: #962d2d;
 }
